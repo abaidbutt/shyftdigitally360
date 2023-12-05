@@ -73,7 +73,7 @@ const EditIds = () => {
                 ))}
               </Tabs>
               {subscriptionContact.map((tab, index) => (
-                <TabPanel value={value} index={index}>
+                <TabPanel value={value} key={index}>
                   {tab.route}
                 </TabPanel>
               ))}

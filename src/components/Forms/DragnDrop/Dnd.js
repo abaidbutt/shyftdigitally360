@@ -94,7 +94,7 @@ const Dnd = () => {
           ],
         })
       );
-    }, []);
+    }, [setCards]);
     const renderCard = useCallback((card, index) => {
       return (
         <Card
@@ -105,7 +105,7 @@ const Dnd = () => {
           moveCard={moveCard}
         />
       );
-    }, []);
+    }, [moveCard]);
     return (
       <>
         <div style={style}>{cards.map((card, i) => renderCard(card, i))}</div>

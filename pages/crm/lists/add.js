@@ -7,7 +7,7 @@ const App = () => {
     if (name === "Leonardo") {
       setName("Jose");
     }
-  }, []);
+  }, [name]);
 
   return (
     <div>
