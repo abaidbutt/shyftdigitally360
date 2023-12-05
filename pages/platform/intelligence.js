@@ -6,7 +6,7 @@ import Scheduling from "../../src/components/Platform/Scheduling";
 function Schedule() {
   return (
     <Container maxWidth="xxl" disableGutters>
-      <Scheduling />
+      <Scheduling title="Intelligence"   src="/intelligence.jpg"  />
     </Container>
   );
 }

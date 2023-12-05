@@ -220,77 +220,82 @@ export default TopBar;
 const HomeLinks = [
   { name: "Home", link: "/" },
   {
-    name: "Tour Platform",
-    links: [
-      {
-        name: "Marketing Team",
-        link: "/platform/marketing-team",
-        title: "Marketing Team",
-      },
-      { name: "Websites", link: "/platform/websites", title: "Websites" },
-      { name: "Ecommerce", link: "/platform/ecommerce", title: "Ecommerce" },
-      {
-        name: "Payments",
-        link: "/platform/payments",
-        title: "Payments",
-      },
-      {
-        name: "Point of Sale",
-        link: "/platform/point-of-sale",
-        title: "Point of Sale",
-      },
-      {
-        name: "CRM",
-        link: "/platform/crm",
-        title: "CRM",
-      },
-      {
-        name: "Form",
-        link: "/platform/forms",
-        title: "Form",
-      },
-      {
-        name: "Scheduling",
-        link: "/platform/schedule",
-        title: "Scheduling",
-      },
-      {
-        name: "Email Marketing",
-        link: "/platform/email-marketing",
-        title: "Email Marketing",
-      },
-      {
-        name: "Listings",
-        link: "/platform/listings",
-        title: "Listings",
-      },
-      {
-        name: "Reputation",
-        link: "/platform/reputations",
-        title: "Reputation",
-      },
-      {
-        name: "Social",
-        link: "/platform/social",
-        title: "Social",
-      },
-      {
-        name: "Content",
-        link: "/platform/content",
-        title: "Content",
-      },
-      {
-        name: "Ads",
-        link: "/platform/ads",
-        title: "Ads",
-      },
-      {
-        name: "Intelligence",
-        link: "/platform/intelligence",
-        title: "Intelligence",
-      },
-    ],
+    name: "Marketing Team",
+    link: "/platform/marketing-team",
+    title: "Marketing Team",
   },
+  // {
+  //   name: "Tour Platform",
+  //   links: [
+  //     {
+  //       name: "Marketing Team",
+  //       link: "/platform/marketing-team",
+  //       title: "Marketing Team",
+  //     },
+  //     { name: "Websites", link: "/platform/websites", title: "Websites" },
+  //     { name: "Ecommerce", link: "/platform/ecommerce", title: "Ecommerce" },
+  //     {
+  //       name: "Payments",
+  //       link: "/platform/payments",
+  //       title: "Payments",
+  //     },
+  //     {
+  //       name: "Point of Sale",
+  //       link: "/platform/point-of-sale",
+  //       title: "Point of Sale",
+  //     },
+  //     {
+  //       name: "CRM",
+  //       link: "/platform/crm",
+  //       title: "CRM",
+  //     },
+  //     {
+  //       name: "Form",
+  //       link: "/platform/forms",
+  //       title: "Form",
+  //     },
+  //     {
+  //       name: "Scheduling",
+  //       link: "/platform/schedule",
+  //       title: "Scheduling",
+  //     },
+  //     {
+  //       name: "Email Marketing",
+  //       link: "/platform/email-marketing",
+  //       title: "Email Marketing",
+  //     },
+  //     {
+  //       name: "Listings",
+  //       link: "/platform/listings",
+  //       title: "Listings",
+  //     },
+  //     {
+  //       name: "Reputation",
+  //       link: "/platform/reputations",
+  //       title: "Reputation",
+  //     },
+  //     {
+  //       name: "Social",
+  //       link: "/platform/social",
+  //       title: "Social",
+  //     },
+  //     {
+  //       name: "Content",
+  //       link: "/platform/content",
+  //       title: "Content",
+  //     },
+  //     {
+  //       name: "Ads",
+  //       link: "/platform/ads",
+  //       title: "Ads",
+  //     },
+  //     {
+  //       name: "Intelligence",
+  //       link: "/platform/intelligence",
+  //       title: "Intelligence",
+  //     },
+  //   ],
+  // },
   {
     name: "Tour by Industry",
     link: "/tour-by-industry",
@@ -312,61 +317,19 @@ const HomeLinks = [
     title: "Forms",
   },
   {
-    name: "Builder",
-    link: "/banner/builder",
-    title: "Builder",
+    name: "Creative Services",
+    link: "/creative-services",
+    title: "Creative Services",
   },
 
   {
-    name: "More",
-    links: [
-      // {
-      //   name: "About",
-      //   link: "/platform/items",
-      //   title: "About",
-      // },
-      {
-        name: "Creative Services",
-        link: "/creative-services",
-        title: "Creative Services",
-      },
-      {
-        name: "Success Stories",
-        link: "/success-stories",
-        title: "Success Stories",
-      },
-      // {
-      //   name: "Our Reviews",
-      //   link: "/platform/items",
-      //   title: "Our Reviews",
-      // },
-      // {
-      //   name: "Partner With Us",
-      //   link: "/platform/items",
-      //   title: "Partner With Us",
-      // },
-      {
-        name: "Marketplace",
-        link: "/marketplace",
-        title: "Marketplace",
-      },
-      {
-        name: "Support",
-        link: "/support",
-        title: "Support",
-      },
-      // {
-      //   name: "Blog",
-      //   link: "/platform/items",
-      //   title: "Blog",
-      // },
-      // {
-      //   name: "Contact Us",
-      //   link: "/platform/items",
-      //   title: "Contact Us",
-      // },
-    ],
+    name: "Marketplace",
+    link: "/marketplace",
+    title: "Marketplace",
   },
-  // { name: "Careers", link: "/contact" },
+  {
+    name: "Support",
+    link: "/support",
+    title: "Support",
+  },
 ];
-

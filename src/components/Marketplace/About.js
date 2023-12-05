@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <Container maxWidth="xl">
       <Container sx={{ my: 5, textAlign: "center" }} maxWidth="sm">
-        <Typography variant="h4" gutterBottom>
+        <Typography variant="h3" gutterBottom>
           Our valued partners make running your business easier
         </Typography>
       </Container>
