@@ -31,7 +31,7 @@ const Footer = () => {
     <Container
       maxWidth="xxl"
       disableGutters
-      sx={{ backgroundColor: "#f7f7f7", mt: "auto" }}
+      sx={{ backgroundColor: "#000", mt: "auto" }}
     >
       <Container
         maxWidth="lg"
@@ -44,7 +44,7 @@ const Footer = () => {
         <Grid container spacing={4} justifyContent="space-evenly">
           {footers.map((footer) => (
             <Grid item xs={6} sm={3} key={footer.title}>
-              <Typography variant="h6" color="text.primary" gutterBottom>
+              <Typography variant="h6" color="white" gutterBottom>
                 {footer.title}
               </Typography>
               <ul style={{ listStyle: "none", padding: 0, margin: 0 }}>
@@ -70,7 +70,7 @@ function Copyright(props) {
   return (
     <Container
       maxWidth="xxl"
-      sx={{ backgroundColor: "#fff", paddingY: "10px" }}
+      sx={{ backgroundColor: "#000", paddingY: "10px" }}
       disableGutters
     >
       <Container maxWidth="lg">
@@ -84,7 +84,7 @@ function Copyright(props) {
           }}
         >
           {tiers.map((ty) => (
-            <Link color="inherit" href="https://towntown.io/term.html">
+            <Link style={{color:"White"}} href="https://towntown.io/term.html">
               {ty.title}
             </Link>
           ))}

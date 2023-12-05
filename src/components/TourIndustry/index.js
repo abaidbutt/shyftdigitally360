@@ -78,7 +78,9 @@ const TourIndustry = () => {
           Don’t see your industry? Don’t worry, we work with any type of venture
           .
         </Typography>
-        <Button variant="contained">Plan &amp; Pricing</Button>
+        <Box sx={{my:3}}>
+          <Button variant="contained">Plan &amp; Pricing</Button>
+        </Box>
         <Typography variant="subtitle1" gutterBottom>
           Plus, explore free account tools. No credit card required.
         </Typography>

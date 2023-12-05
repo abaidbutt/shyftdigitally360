@@ -52,15 +52,16 @@ const Login = () => {
         >
           <>
             {/* <Paper > */}
-            <Box>
+            <Link href={"/"}>
               <Image
                 src={"/shyft-360.png"}
                 layout="fixed"
                 width={"200"}
                 height={"80"}
                 alt="marketing360"
+                style={{cursor:"pointer"}}
               />
-            </Box>
+            </Link>
             <Typography
               variant="h4"
               sx={{

@@ -10,6 +10,7 @@ import {
   Avatar,
 } from "@mui/material";
 import Image from "next/image";
+import Link from "next/link";
 const Login = () => {
   return (
     <Container
@@ -48,7 +49,7 @@ const Login = () => {
 
           <Box sx={{ display: "flex", justifyContent: "space-around" }}>
             <Box sx={{ width: "30%" }}>
-              <Box sx={{ marginLeft: 7 }}>
+              <Link style={{ marginLeft: 7, cursor:"pointer" }} href={"/"}>
                 <Image
                   src={"/shyft-360.png"}
                   // src={
@@ -58,8 +59,9 @@ const Login = () => {
                   width={"160px"}
                   height={"35px"}
                   alt="marketing360"
+                  
                 />
-              </Box>
+              </Link>
               <Typography
                 variant="body1"
                 sx={{ color: "#848586", textAlign: "center" }}

@@ -147,13 +147,13 @@ const Payment = ({ children }) => {
         <AppBar elevation={0} sx={{}} position="static" color="inherit">
           <Container maxWidth="xl">
             <Toolbar disableGutters>
-              <>
+              <Link href="/" style={{ cursor: "pointer" }}>
                 <Avatar
                   src="/shyft-360.png"
                   sx={{ width: "150px", height: "39px" }}
                   variant="square"
                 />
-              </>
+              </Link>
               {/* <Button endIcon={<KeyboardArrowDown color={"action"} />}>
                 <Typography variant="h6" color="black">
                   Payment

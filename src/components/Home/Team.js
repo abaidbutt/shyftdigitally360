@@ -12,12 +12,12 @@ import {
 const Home = () => {
   return (
     <Container maxWidth="xl">
-      <Container sx={{ my: 5, textAlign: "center" }} maxWidth="sm">
+      {/* <Container sx={{ my: 5, textAlign: "center" }} maxWidth="sm">
         <Typography variant="h4" gutterBottom>
           See how Marketing 360® works for your business.
         </Typography>
         <Button variant="outlinled">Find your industry</Button>
-      </Container>
+      </Container> */}
       {/* <Grid container>
         <Grid md={6} xl={6} lg={6} sm={12} xs={12}></Grid>
         <Grid md={6} xl={6} lg={6} sm={12} xs={12}>
@@ -40,7 +40,9 @@ const Home = () => {
         <Typography variant="h4" gutterBottom>
           Get everything you need to manage and grow your business.
         </Typography>
-        <Button variant="contained">Plan &amp; Pricing</Button>
+        <Box sx={{my:2}}>
+          <Button variant="contained">Plan &amp; Pricing</Button>
+        </Box>
         <Typography variant="subtitle1" gutterBottom>
           Plus, explore free account tools. No credit card required.
         </Typography>
@@ -60,10 +62,6 @@ const Home = () => {
 
           <Box>3,500+ Reviews</Box>
         </Box>
-
-        <Grid container>
-          <Grid md={6} xl={6} lg={6} sm={12} xs={12}></Grid>
-        </Grid>
       </Container>
     </Container>
   );

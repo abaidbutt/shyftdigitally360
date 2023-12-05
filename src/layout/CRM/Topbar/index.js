@@ -142,13 +142,13 @@ const CRM = ({ children }) => {
         <AppBar elevation={0} sx={{}} position="static" color="inherit">
           <Container maxWidth="xl">
             <Toolbar disableGutters>
-              <>
+              <Link style={{  cursor: "pointer" }} href={"/"}>
                 <Avatar
                   src="/shyft-360.png"
                   sx={{ width: "150px", height: "39px" }}
                   variant="square"
                 />
-              </>
+              </Link>
               {/* <Button endIcon={<KeyboardArrowDown color={"action"} />}>
                 <Typography variant="h6" color="black">
                   CRM

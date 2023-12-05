@@ -3,12 +3,29 @@ import { Container, Grid, Box, Button, Typography, Image } from "@mui/material";
 
 const Home = () => {
   return (
-    <Container maxWidth="xl">
-      <Grid container>
-        <Grid md={6} xl={6} lg={6} sm={12} xs={12}>
-          <Box sx={{ my: 5 }}>
-            <Typography variant="h3" gutterBottom>
-              Get everything you need to manage and grow your Business
+    <Container
+      maxWidth="xl"
+      sx={{
+        backgroundImage: "url('/bg.png')",
+        backgroundRepeat: "no-repeat",
+        backgroundSize: "cover", // or 'contain' based on your preference
+        backgroundPosition: "center", // or adjust as needed
+        height: "90vh",
+      }}
+    >
+      <Box
+        sx={{
+          height: "100%",
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+        }}
+      >
+        <Container maxWidth="sm">
+          <Box sx={{ my: 5, textAlign: "center" }}>
+            <Typography variant="h1" gutterBottom fontWeight={"bolder"}>
+              <span>Join </span>
+              Our Platform{" "}
             </Typography>
             <Typography variant="h6" gutterBottom>
               The tools you need to scale and the marketing programs and talent
@@ -18,16 +35,17 @@ const Home = () => {
               sx={{
                 display: "flex",
                 alignItems: "center",
-                justifyContent: "flex-start",
+                justifyContent: "center",
+                gap: 2,
+                my: 5,
               }}
             >
               <Button variant="contained">Plan &amp; Pricing</Button>
-              <Button color="inherit">Watch video</Button>
+              <Button variant="outlined">Watch video</Button>
             </Box>
           </Box>
-        </Grid>
-        <Grid md={6} xl={6} lg={6} sm={12} xs={12}></Grid>
-      </Grid>
+        </Container>
+      </Box>
     </Container>
   );
 };

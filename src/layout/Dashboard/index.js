@@ -9,6 +9,7 @@ import {
   Typography,
   IconButton,
 } from "@mui/material";
+import Link from "next/link";
 const DashboardLayout = ({ children }) => {
   return (
     <div>
@@ -16,13 +17,13 @@ const DashboardLayout = ({ children }) => {
         <AppBar elevation={0} sx={{}} position="static" color="inherit">
           <Container maxWidth="xl">
             <Toolbar disableGutters>
-              <>
+              <Link style={{  cursor: "pointer" }} href={"/"}>
                 <Avatar
                   src="/shyft-360.png"
                   sx={{ width: "150px", height: "39px" }}
                   variant="square"
                 />
-              </>
+              </Link>
               {/* <Button endIcon={<KeyboardArrowDown color={"action"} />}>
                 <Typography variant="h6" color="black">
                   Payment
