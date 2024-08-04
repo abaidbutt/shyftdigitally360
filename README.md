@@ -1,6 +1,6 @@
 # Company CRM
 
-Welcome to the Company CRM (Customer Relationship Management) system. This README provides an overview of the project, its features, and how to get started.
+Welcome to the Company CRM (Customer Relationship Management) system.
 
 ## Table of Contents
 
@@ -30,7 +30,7 @@ Welcome to the Company CRM (Customer Relationship Management) system. This READM
 
 ## Introduction
 
-The Company CRM is a comprehensive Customer Relationship Management system designed to streamline interactions with customers, manage business data, and improve overall efficiency. This README serves as a guide to understanding the project's features and how to use them effectively.
+The Company CRM is a comprehensive Customer Relationship Management system designed to streamline interactions with customers, manage business data, and improve overall efficiency. Ï
 
 ## Features
 
